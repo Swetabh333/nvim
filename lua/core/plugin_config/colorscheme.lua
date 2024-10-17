@@ -1,5 +1,5 @@
 --require("catppuccin").setup({
---	flavour = "macchiato",
+--	flavour = "mocha",
 --	backgound = {
 --		light = "latte",
 --		dark = "frappe",
