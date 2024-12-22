@@ -7,5 +7,13 @@
 --	transparent_background = true,
 --})
 
-vim.cmd.colorscheme("rose-pine")
+require("tokyonight").setup({
+	transparent = true,
+	styles = {
+		sidebars = "transparent",
+		floats = "transparent",
+	},
+})
+
+vim.cmd.colorscheme("tokyonight-night")
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })

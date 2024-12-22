@@ -54,6 +54,7 @@ return require("packer").startup(function(use)
 	use({ "kaicataldo/material.vim", branch = "main" })
 	use("rose-pine/neovim")
 	use("love-pengy/lillilac.nvim")
+	use("folke/tokyonight.nvim")
 	--use("lewis6991/gitsigns.nvim") -- OPTIONAL: for git status
 	--use("romgrk/barbar.nvim")
 	-- Automatically set up your configuration after cloning packer.nvim
